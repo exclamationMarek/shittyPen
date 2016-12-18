@@ -1,0 +1,4 @@
+%marks make
+
+make
+avrdude -c usbasp -p attiny88 -U flash:w:main.hex
